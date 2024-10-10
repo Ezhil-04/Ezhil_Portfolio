@@ -1,0 +1,209 @@
+
+.raleway{
+  font-family: "Raleway";
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: normal;
+}
+.navbar{
+    height:3.5rem;
+    color: white;
+    width:100%;
+    min-width:100%;
+    background-color:#111;
+    margin: 0 auto;
+    padding:.5rem 6rem;
+    display: flex;
+    align-items:center;
+    justify-content: space-between;
+    position:fixed;
+    top:0;
+    z-index:9999;
+    /* opacity: 0; */
+    opacity: 1;
+    transition: opacity .3s ease-in-out;
+    font-family: "Raleway", sans-serif;
+    border-top:1px solid rgb(133, 118, 118);
+   
+    
+
+}
+
+
+.logo{
+    height:2rem;
+    object-fit:cover;
+   filter: drop-shadow( 2px 2px 3px black);
+ 
+}
+
+.desktopNavItems {
+display: flex;
+align-items:center;
+
+height:2rem;
+
+list-style: none;
+}
+.DesktopNavItem{
+    margin-inline:1.7rem;
+    cursor:pointer;
+    font-size: 1.2rem;
+    color: white;
+}
+.DesktopNavItem:hover{
+    color:rgb(213, 253, 230);
+}
+.DesktopNavItem::after{
+    content:"";
+    width:0;
+    height:2px;
+    display: block;
+    margin-right:auto;
+    background-color:rgb(255, 255, 255);
+    transition:  0.5s ;
+    margin-top:3px;
+}
+.DesktopNavItem:hover::after{
+    width:100%;
+}
+.DesktopNavItem::before{
+    content:"";
+    width:0;
+    height:2px;
+    display: block;
+    margin-left:auto;
+    background-color:rgb(255, 255, 255);
+    transition:  0.5s ;
+    margin-bottom:3px;
+}
+.DesktopNavItem:hover::before{
+    width:100%;
+}
+
+.desktopNavContactBtn{
+background-color: rgb(255, 255, 255);
+border:none;
+border-radius:5px;
+height: 2rem;
+width:9.5rem;
+display:flex;
+align-items: center;
+justify-content: center;
+padding-inline:.6rem;
+cursor: pointer;
+transition:all .1s ease-in-out;
+}
+
+.desktopNavContactBtn:hover{
+    background-color: rgb(240, 199, 253);
+    
+   
+    /* box-shadow: 2px 2px 5px rgb(208, 216, 211); */
+    
+}
+.desktopNavContactBtn:active{
+    transform: translate(3px,3px);
+}
+
+.buttonText{
+    font-size: 1rem;
+    font-weight: 700;
+
+
+}
+.contactbtnImage{
+    height:1.1rem;
+    margin-right:.3rem;
+   
+}
+
+#showNavbar{
+
+    opacity: 1;
+}
+.activeOne{
+    color: rgb(255, 118, 118);
+    font-weight: 400;
+    border-bottom: 1px solid rgb(255, 118, 118);
+}
+.activeTwo{
+    color: rgb(255, 3, 3);
+    font-weight: 400;
+    border-bottom: 1px solid rgb(255, 7, 7);
+}
+/* .fade_down{
+    animation:fade_down .5s ease-in forwards;
+    opacity:0;
+} */
+
+@keyframes fade_down{
+   
+    0%{
+        opacity:0;
+        transform:translateY(-30px);
+    }
+    100%{
+        opacity:1;
+        transform:translateY(0px);
+    }
+}
+
+
+
+/* styles for mobile navbar */
+
+.burgerMenu{
+    height: 20rem;
+    z-index: 999;
+    display: none;
+   
+  
+}
+
+.mobileNavItems{
+    
+    padding-top: 5rem;
+    padding-bottom: 2rem;
+    position: absolute;
+      display: flex;
+      width: 100vw;
+      flex-direction: column;
+    align-items: center;
+    overflow:hidden;
+      top: 0rem;
+      right: 0rem;
+      background-color: rgba(255, 253, 253, 0.705);
+      backdrop-filter:blur(5px);
+      box-shadow: 2px 0px 5px black;
+      transition:all .3s ease-in-out;
+      z-index:-1;
+      
+}
+.mobileLinkDiv{
+    display:flex ;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    margin-bottom: .5rem;
+    height: 2rem;
+    
+}
+
+@media only screen and (max-width:1000px){
+    .navbar{
+        padding-inline:3rem;
+    }
+}
+
+
+@media only screen and (max-width:900px){
+    .desktopNavItems,.desktopNavContactBtn{
+        display: none;
+    }
+   
+    .burgerMenu{
+        display: flex;
+    }
+}
+

@@ -1,0 +1,13 @@
+#footerSection{
+   
+    height: 5.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+    color: rgb(252, 216, 221);
+
+}
+p{
+    font-size: 1rem;
+}
