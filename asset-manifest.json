@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.css": "/Ezhil_Portfolio/static/css/main.66f79ce0.css",
+    "main.js": "/Ezhil_Portfolio/static/js/main.1abfa186.js",
+    "static/js/453.1407b060.chunk.js": "/Ezhil_Portfolio/static/js/453.1407b060.chunk.js",
+    "static/media/notes1.jpg": "/Ezhil_Portfolio/static/media/notes1.83bbb0c62b583a195fda.jpg",
+    "static/media/raining.jpg": "/Ezhil_Portfolio/static/media/raining.8af85e6209eccb90204c.jpg",
+    "static/media/music.jpg": "/Ezhil_Portfolio/static/media/music.bce19594941b66c50262.jpg",
+    "static/media/door.jpg": "/Ezhil_Portfolio/static/media/door.2792a31ae5dcaa115e15.jpg",
+    "static/media/myImg.jpg": "/Ezhil_Portfolio/static/media/myImg.2512538c8c557d36484d.jpg",
+    "static/media/thinking.jpg": "/Ezhil_Portfolio/static/media/thinking.57be29c54d78ef4072f9.jpg",
+    "static/media/react.png": "/Ezhil_Portfolio/static/media/react.07d9e407d4e491c548d5.png",
+    "static/media/pen.jpg": "/Ezhil_Portfolio/static/media/pen.ba95b250aab270b0ade8.jpg",
+    "static/media/v.png": "/Ezhil_Portfolio/static/media/v.18e4125d303186e55ade.png",
+    "static/media/github.png": "/Ezhil_Portfolio/static/media/github.05f6c17b8cd04c28456f.png",
+    "static/media/css-3.png": "/Ezhil_Portfolio/static/media/css-3.463e319bad8e0edf1ef7.png",
+    "static/media/profile.png": "/Ezhil_Portfolio/static/media/profile.a2eaacbf4d65d8313d1d.png",
+    "static/media/html-5.png": "/Ezhil_Portfolio/static/media/html-5.ff3cf75e3b7cbb4ea77c.png",
+    "static/media/js.png": "/Ezhil_Portfolio/static/media/js.3dfb665e058d08c99f28.png",
+    "index.html": "/Ezhil_Portfolio/index.html",
+    "main.66f79ce0.css.map": "/Ezhil_Portfolio/static/css/main.66f79ce0.css.map",
+    "main.1abfa186.js.map": "/Ezhil_Portfolio/static/js/main.1abfa186.js.map",
+    "453.1407b060.chunk.js.map": "/Ezhil_Portfolio/static/js/453.1407b060.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.66f79ce0.css",
+    "static/js/main.1abfa186.js"
+  ]
+}
