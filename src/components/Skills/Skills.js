@@ -56,7 +56,7 @@ const Skills = () => {
     <section id="skillsSection">
      
      <h1 id="skillsSectionH1" data-aos="fade">My Skills</h1>
-     <div id="skillsUpperParagraphs"><p data-aos="fade-up">"As a dedicated final year student, I am eager to showcase my skills and passion for web development. Through my academic coursework and personal projects, I have developed a strong foundation in list of relevant skills like HTML, CSS, JavaScript, React. I am confident in my ability to work independently and contribute meaningfully to projects</p></div>
+     <div id="skillsUpperParagraphs"><p data-aos="fade-up">" I'm a skilled web developer proficient in HTML, CSS, JavaScript, and React. My experience in building projects demonstrates my ability to contribute effectively to teams "</p></div>
      
       
       { <main id="skillsWrapper">
